@@ -33,7 +33,7 @@
   width: calc((100% / 3) - 5px);
   background-color: rgba(0, 0, 0, 0.2);
   text-align: center;
-  min-width: 2;
+  min-width: 200px;
   padding: 5px;
 }
 .repo h3 {

@@ -1,7 +1,7 @@
 <template>
   <div class="home content-config">
-    <header-component :header="header" />
     <div class="search-box">
+      <header-component :header="header" />
       <i class="fa-brands fa-github"></i>
       <form onsubmit="event.preventDefault()">
         <input

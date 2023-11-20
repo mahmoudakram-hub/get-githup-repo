@@ -1,6 +1,5 @@
 <template>
   <div class="side-bar">
-    <h1>side bar</h1>
     <app-links />
   </div>
 </template>
@@ -8,11 +7,17 @@
 <style lang="scss" scoped>
 .side-bar {
   width: 300px;
-  background-color: black;
+  background-color: rgb(128, 93, 93);
   color: white;
   h1 {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .side-bar {
+    width: 100px;
   }
 }
 </style>
