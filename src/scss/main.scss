@@ -1,0 +1,21 @@
+@import url('~@fortawesome/fontawesome-free/css/all.css');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#app{
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
+}
+.content-config{
+flex: 1;
+}
+.active{
+  background-color: #ccc;
+}

@@ -16,11 +16,26 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
+  {
+    path: "/info",
+    name: "InfoComponent",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/InfoView.vue"),
+  },
+  {
+    path: "/projects",
+    name: "ProjectComponent",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/ProjectsView.vue"),
+  },
 ];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+  linkActiveClass: "active",
 });
 
 export default router;
